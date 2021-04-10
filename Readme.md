@@ -1,4 +1,9 @@
 # Jay patel
 
-##Tec 445 class create new repository
---This is a bulleted list
+Tec 445 class create new repository
+
+Colors:
+
+* Red
+* Blue
+* Orange
