@@ -1,20 +1,19 @@
+// Program to print positive number entered by the user
+// If the user enters a negative number, it is skipped
+
 #include <iostream>
-#include <vector>
+using namespace std;
 
-int
-main ()
-{
-  std::vector<int> v;
-  for (int i : {5, 4, 3, 2, 1})
-  {
-    v.push_back (i);
-  }
+int main() {
+    int number;
 
-  for (auto val : v)
-  {
-    std::cout << val << ' ';
-  }
-  std::cout << "\nHello, World!" << std::endl;
+    cout << "Enter an integer: ";
+    cin >> number;
 
-  return 0;
+    // checks if the number is positive
+    if (number > 0) {
+        cout << "You entered a positive integer: " << number << endl;
+    }
+    cout << "This statement is always executed.";
+    return 0;
 }
