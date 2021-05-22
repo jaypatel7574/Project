@@ -12,10 +12,20 @@ int main () {
    cout << "Writing to the file" << endl;
    cout << "Enter your name: "; 
    cin.getline(data, 100);
+   
+   
+   // write inputted data into the file.
+   outfile << data << endl;
+   
+   //Open the file
+   
+       cout << "Enter your NUMBER of your choice: "; 
+   cin.getline(data, 100);
 
    // write inputted data into the file.
    outfile << data << endl;
-
+   
+   //Add again file.
    cout << "Enter your age: "; 
    cin >> data;
    cin.ignore();
@@ -37,6 +47,10 @@ int main () {
    cout << data << endl;
    
    // again read the data from the file and display it.
+   infile >> data; 
+   cout << data << endl; 
+   
+    // Third time display data.
    infile >> data; 
    cout << data << endl; 
 
